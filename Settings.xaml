@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BA.Settings"
+             Title="Settings">
+    <ScrollView>
+        <Grid>
+            <!--Выбор темы-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="500"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="500"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Выбор темы: " Grid.Row="0" Margin="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <Button Text="Применить" Grid.Row="0" Grid.Column="5" Clicked="Send"/>
+
+            <RadioButton Grid.Row="2" Grid.Column="0" Margin="0" GroupName="Options"/>
+            <RadioButton Grid.Row="2" Grid.Column="1" Margin="0" GroupName="Options"/>
+            <RadioButton Grid.Row="2" Grid.Column="2" Margin="0" GroupName="Options"/>
+            <RadioButton Grid.Row="2" Grid.Column="3" Margin="0" GroupName="Options"/>
+
+
+
+            <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Margin="25" x:Name="LABEL" Text="Язык(Language)"/>
+
+            <RadioButton Grid.Row="6" Grid.Column="0" GroupName="Language"/>
+            <Label Text="Русский" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Margin="0, 7, 0, 0"/>
+            <RadioButton Grid.Row="7" Grid.Column="0" GroupName="Language"/>
+            <Label Text="English" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" Margin="0, 7, 0, 0"/>
+            <Grid Grid.Row="9" Grid.ColumnSpan="6">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Выбор уровня сложности: " Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="0, 100, 0, 0" FontFamily="AgrasimaRegular"/>
+                <Button Text="Легко" Grid.Row="1" Grid.Column="0" BackgroundColor="White" TextColor="Black" WidthRequest="155" BorderColor="Black" BorderWidth="2" Clicked="changeLevel1" Margin="5, 0, 0, 20" x:Name="easy"/>
+                <Button Text="Средне" Grid.Row="2" Grid.Column="0" BackgroundColor="White" TextColor="Black" WidthRequest="155" BorderColor="Black" BorderWidth="2" Clicked="changeLevel2" Margin="5, 0, 0, 20" x:Name="middle"/>
+                <Button Text="Сложно" Grid.Row="3" Grid.Column="0" BackgroundColor="White" TextColor="Black" WidthRequest="155" BorderColor="Black" BorderWidth="2" Clicked="changeLevel3" Margin="5, 0, 0, 20" x:Name="hard"/>
+                <Button Text="Пользовательский" Grid.Row="4" Grid.Column="0" BackgroundColor="White" TextColor="Black" WidthRequest="155" BorderColor="Black" BorderWidth="2" Clicked="userLevel" Margin="5, 0, 0, 20" x:Name="userLevelButton"/>
+
+            </Grid>
+            <Grid Grid.Row="16" Grid.RowSpan="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!--Slider Maximum="100" Minimum="0" Grid.Row="0" Grid.ColumnSpan="8" Grid.Column="0"/-->
+                <CheckBox Grid.Row="1" CheckedChanged="CheckChanged" x:Name="Plus" IsEnabled="False"/>
+                <CheckBox Grid.Row="2" CheckedChanged="CheckChanged" x:Name="Minus" IsEnabled="False"/>
+                <CheckBox Grid.Row="3" CheckedChanged="CheckChanged" x:Name="Multiplication" IsEnabled="False"/>
+                <CheckBox Grid.Row="4" CheckedChanged="CheckChanged" x:Name="Division" IsEnabled="False"/>
+
+                <Label Text="+" Grid.Column="2" Grid.Row="1" Margin="0, 13, 0, 0" Grid.ColumnSpan="2"/>
+                <Label Text="-"  Grid.Column="2" Grid.Row="2" Margin="0, 13, 0, 0" Grid.ColumnSpan="2"/>
+                <Label Text="*"  Grid.Column="2" Grid.Row="3" Margin="0, 13, 0, 0" Grid.ColumnSpan="2"/>
+                <Label Text="/" Grid.Column="2" Grid.Row="4" Margin="0, 13, 0, 0" Grid.ColumnSpan="2"/>
+            </Grid>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
