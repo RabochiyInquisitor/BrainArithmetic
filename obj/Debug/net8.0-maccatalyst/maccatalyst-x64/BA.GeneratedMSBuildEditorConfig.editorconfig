@@ -53,3 +53,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BA.Settings.xaml
 build_metadata.AdditionalFiles.TargetPath = Settings.xaml
 build_metadata.AdditionalFiles.RelativePath = Settings.xaml
+
+[D:/BA/Themes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BA.Themes.xaml
+build_metadata.AdditionalFiles.TargetPath = Themes.xaml
+build_metadata.AdditionalFiles.RelativePath = Themes.xaml

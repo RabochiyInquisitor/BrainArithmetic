@@ -1,4 +1,6 @@
-﻿namespace BA
+﻿using System.ComponentModel;
+
+namespace BA
 {
     public partial class MainPage : ContentPage
     {
@@ -6,33 +8,35 @@
         public static int Value;
         public static string Sample;
         private Level level;
+        public string[] standart_buttons = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Zero"];
         public MainPage()
         {
-            level = Level.Instance;
+            
             InitializeComponent();
-            //BindingContext = level._operations;
-            if (level._currentTheme == "easy")
+            level = Level.Instance;
+            level.PropertyChanged += ViewModel_PropertyChanged;
+            if (level._difficult == "easy")
             {
                 var arr = ChangeText(level._operations.ToArray(), 150, 240, 10, 150, 1);
                 MainPage.Value = arr.Item2;
                 MainPage.Sample = arr.Item1;
                 MyTask.Text = arr.Item1;
             }
-            else if (level._currentTheme == "middle")
+            else if (level._difficult == "middle")
             {
                 var arr = ChangeText(level._operations.ToArray(), 250, 500, 100, 200, 2);
                 MainPage.Value = arr.Item2;
                 MainPage.Sample = arr.Item1;
                 MyTask.Text = arr.Item1;
             }
-            else if (level._currentTheme == "hard")
+            else if (level._difficult == "hard")
             {
                 var arr = ChangeText(level._operations.ToArray(), 500, 658, 300, 430, 3);
                 MainPage.Value = arr.Item2;
                 MainPage.Sample = arr.Item1;
                 MyTask.Text = arr.Item1;
             }
-            else if (level._currentTheme == "user")
+            else if (level._difficult == "user")
             {
                 var arr = ChangeText(level._operations.ToArray(), 150, 240, 10, 150, level._operations.ToArray().Length);
                 MainPage.Value = arr.Item2;
@@ -46,6 +50,79 @@
                 MainPage.Sample = arr.Item1;
                 MyTask.Text = arr.Item1;
             }
+
+
+
+
+            string themeKey = $"{level.CurrentTheme}.StandartButtonBackgroundColor";
+            string textColorKey = $"{level.CurrentTheme}.TextColor";
+            string forLabel = $"{level.CurrentTheme}.TextColorForLabel";
+            string forInput = $"{level.CurrentTheme}.TextColorForInput";
+
+            string top = $"{level.CurrentTheme}.TopScreenBackgroundColor";
+            string bottom = $"{level.CurrentTheme}.BottomScreenBackgroundColor";
+
+            string funcButton = $"{level.CurrentTheme}.OperationButtonBackgroundColor";
+
+            string done = $"{level.CurrentTheme}.DoneButtonBackgroundColor";
+
+
+
+            One.Background = (Color)Application.Current.Resources[themeKey];
+            One.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Two.Background = (Color)Application.Current.Resources[themeKey];
+            Two.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Three.Background = (Color)Application.Current.Resources[themeKey];
+            Three.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Four.Background = (Color)Application.Current.Resources[themeKey];
+            Four.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Five.Background = (Color)Application.Current.Resources[themeKey];
+            Five.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Six.Background = (Color)Application.Current.Resources[themeKey];
+            Six.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Seven.Background = (Color)Application.Current.Resources[themeKey];
+            Seven.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Eight.Background = (Color)Application.Current.Resources[themeKey];
+            Eight.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Nine.Background = (Color)Application.Current.Resources[themeKey];
+            Nine.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Zero.Background = (Color)Application.Current.Resources[themeKey];
+            Zero.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Top.Background = (Color)Application.Current.Resources[top];
+            Bottom.Background = (Color)Application.Current.Resources[bottom];
+
+            MyTask.TextColor = (Color)Application.Current.Resources[forLabel];
+            Place.TextColor = (Color)Application.Current.Resources[forInput];
+
+            Point.Background = (Color)Application.Current.Resources[funcButton];
+            Point.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Delete.Background = (Color)Application.Current.Resources[funcButton];
+            Delete.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            SettingsB.Background = (Color)Application.Current.Resources[funcButton];
+            SettingsB.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Minus.Background = (Color)Application.Current.Resources[funcButton];
+            Minus.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            DoneB.Background = (Color)Application.Current.Resources[done];
+            DoneB.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+
+
+
+
         }
 
         async private void Settings(object sender, EventArgs e)
@@ -106,7 +183,7 @@
             }
             catch
             {
-
+                
             }
         }
         private async void Done(object sender, EventArgs e)
@@ -116,7 +193,7 @@
             {
                 MyTask.Text = "Верно!";
                 await Task.Delay(1000);
-                if (level._currentTheme == "easy")
+                if (level._difficult == "easy")
                 {
                     var arr = ChangeText(level._operations.ToArray(), 150, 240, 10, 150, 1);
                     MainPage.Value = arr.Item2;
@@ -124,21 +201,21 @@
                     MyTask.Text = arr.Item1;
 
                 }
-                else if (level._currentTheme == "middle")
+                else if (level._difficult == "middle")
                 {
                     var arr = ChangeText(level._operations.ToArray(), 250, 500, 100, 200, 2);
                     MainPage.Value = arr.Item2;
                     MainPage.Sample = arr.Item1;
                     MyTask.Text = arr.Item1;
                 }
-                else if (level._currentTheme == "hard")
+                else if (level._difficult == "hard")
                 {
                     var arr = ChangeText(level._operations.ToArray(), 500, 658, 300, 430, 3);
                     MainPage.Value = arr.Item2;
                     MainPage.Sample = arr.Item1;
                     MyTask.Text = arr.Item1;
                 }
-                else if (level._currentTheme == "user")
+                else if (level._difficult == "user")
                 {
                     var arr = ChangeText(level._operations.ToArray(), 150, 240, 10, 150, level._operations.ToArray().Length);
                     MainPage.Value = arr.Item2;
@@ -156,32 +233,32 @@
 
 
             }
-            else
+            else if (Convert.ToString(MainPage.Value) != Convert.ToString(Place.Text) && Convert.ToString(Place.Text) != null && Convert.ToString(Place.Text) != "")
             {
                 MyTask.Text = "Неверно!";
                 await Task.Delay(1000);
-                if (level._currentTheme == "easy")
+                if (level._difficult == "easy")
                 {
                     var arr = ChangeText(level._operations.ToArray(), 150, 240, 10, 150, 1);
                     MainPage.Value = arr.Item2;
                     MainPage.Sample = arr.Item1;
                     MyTask.Text = arr.Item1;
                 }
-                else if (level._currentTheme == "middle")
+                else if (level._difficult == "middle")
                 {
                     var arr = ChangeText(level._operations.ToArray(), 250, 500, 100, 200, 2);
                     MainPage.Value = arr.Item2;
                     MainPage.Sample = arr.Item1;
                     MyTask.Text = arr.Item1;
                 }
-                else if (level._currentTheme == "hard")
+                else if (level._difficult == "hard")
                 {
                     var arr = ChangeText(level._operations.ToArray(), 500, 658, 300, 430, 3);
                     MainPage.Value = arr.Item2;
                     MainPage.Sample = arr.Item1;
                     MyTask.Text = arr.Item1;
                 }
-                else if (level._currentTheme == "user")
+                else if (level._difficult == "user")
                 {
                     var arr = ChangeText(level._operations.ToArray(), 150, 240, 10, 150, level._operations.ToArray().Length);
                     MainPage.Value = arr.Item2;
@@ -197,7 +274,76 @@
                 }
                 Place.Text = string.Empty;
             }
+            
+        }
+        private void ViewModel_PropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+
+            string themeKey = $"{level.CurrentTheme}.StandartButtonBackgroundColor";
+            string textColorKey = $"{level.CurrentTheme}.TextColor";
+            string forLabel = $"{level.CurrentTheme}.TextColorForLabel";
+            string forInput = $"{level.CurrentTheme}.TextColorForInput";
+
+            string top = $"{level.CurrentTheme}.TopScreenBackgroundColor";
+            string bottom = $"{level.CurrentTheme}.BottomScreenBackgroundColor";
+
+            string funcButton = $"{level.CurrentTheme}.OperationButtonBackgroundColor";
+
+            string done = $"{level.CurrentTheme}.DoneButtonBackgroundColor";
+
+
+
+            One.Background = (Color)Application.Current.Resources[themeKey];
+            One.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Two.Background = (Color)Application.Current.Resources[themeKey];
+            Two.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Three.Background = (Color)Application.Current.Resources[themeKey];
+            Three.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Four.Background = (Color)Application.Current.Resources[themeKey];
+            Four.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Five.Background = (Color)Application.Current.Resources[themeKey];
+            Five.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Six.Background = (Color)Application.Current.Resources[themeKey];
+            Six.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Seven.Background = (Color)Application.Current.Resources[themeKey];
+            Seven.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Eight.Background = (Color)Application.Current.Resources[themeKey];
+            Eight.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Nine.Background = (Color)Application.Current.Resources[themeKey];
+            Nine.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Zero.Background = (Color)Application.Current.Resources[themeKey];
+            Zero.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Top.Background = (Color)Application.Current.Resources[top];
+            Bottom.Background = (Color)Application.Current.Resources[bottom];
+
+            MyTask.TextColor = (Color)Application.Current.Resources[forLabel];
+            Place.TextColor = (Color)Application.Current.Resources[forInput];
+
+            Point.Background = (Color)Application.Current.Resources[funcButton];
+            Point.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Delete.Background = (Color)Application.Current.Resources[funcButton];
+            Delete.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            SettingsB.Background = (Color)Application.Current.Resources[funcButton];
+            SettingsB.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            Minus.Background = (Color)Application.Current.Resources[funcButton];
+            Minus.TextColor = (Color)Application.Current.Resources[textColorKey];
+
+            DoneB.Background = (Color)Application.Current.Resources[done];
+            DoneB.TextColor = (Color)Application.Current.Resources[textColorKey];
+
         }
     }
-
 }

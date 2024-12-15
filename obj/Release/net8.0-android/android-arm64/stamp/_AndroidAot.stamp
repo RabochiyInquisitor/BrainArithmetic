@@ -4,6 +4,8 @@ obj\Release\net8.0-android\android-arm64\aot\Microsoft.Extensions.Configuration.
 obj\Release\net8.0-android\android-arm64\aot\Microsoft.Extensions.Configuration.Abstractions.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Microsoft.Extensions.DependencyInjection.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
+obj\Release\net8.0-android\android-arm64\aot\Microsoft.Extensions.Localization.dll.so
+obj\Release\net8.0-android\android-arm64\aot\Microsoft.Extensions.Localization.Abstractions.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Microsoft.Extensions.Logging.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Microsoft.Extensions.Logging.Abstractions.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Microsoft.Extensions.Options.dll.so
@@ -13,6 +15,7 @@ obj\Release\net8.0-android\android-arm64\aot\Microsoft.Maui.Controls.Xaml.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Microsoft.Maui.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Microsoft.Maui.Essentials.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Microsoft.Maui.Graphics.dll.so
+obj\Release\net8.0-android\android-arm64\aot\System.Diagnostics.DiagnosticSource.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Xamarin.AndroidX.Activity.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Xamarin.AndroidX.AppCompat.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
@@ -48,7 +51,6 @@ obj\Release\net8.0-android\android-arm64\aot\System.ComponentModel.Primitives.dl
 obj\Release\net8.0-android\android-arm64\aot\System.ComponentModel.TypeConverter.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.ComponentModel.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.Console.dll.so
-obj\Release\net8.0-android\android-arm64\aot\System.Diagnostics.DiagnosticSource.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.IO.Compression.Brotli.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.IO.Compression.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.Linq.Expressions.dll.so
@@ -70,6 +72,7 @@ obj\Release\net8.0-android\android-arm64\aot\System.Threading.Thread.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.Threading.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.Xml.ReaderWriter.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.dll.so
+obj\Release\net8.0-android\android-arm64\aot\netstandard.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Java.Interop.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Mono.Android.Runtime.dll.so
 obj\Release\net8.0-android\android-arm64\aot\Mono.Android.dll.so

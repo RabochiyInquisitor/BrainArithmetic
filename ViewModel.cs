@@ -16,7 +16,7 @@ namespace BA
 
         public event PropertyChangedEventHandler PropertyChanged;
         //public string _currentTheme = LocalStorage.GetValue();
-        public string _currentTheme;
+        public string _currentTheme = "Gloomy_city";
         public string CurrentTheme
         {
             get => _currentTheme;
@@ -29,7 +29,25 @@ namespace BA
 
 
                 }
+                Preferences.Set("Theme", value);
 
+            }
+
+        }
+        public string _difficult = "easy";
+        public string Difficult
+        {
+            get => _difficult;
+            set
+            {
+                if (_difficult != value)
+                {
+                    _difficult = value;
+                    OnPropertyChanged(nameof(Difficult));
+
+
+                }
+                Preferences.Set("level", value);
             }
 
         }

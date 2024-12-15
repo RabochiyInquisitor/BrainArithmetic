@@ -73,158 +73,158 @@
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2LargeTile.scale-400.jpg">
-      <PackagePath>icon2LargeTile.scale-400.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2LargeTile.scale-200.jpg">
-      <PackagePath>icon2LargeTile.scale-200.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2LargeTile.scale-150.jpg">
-      <PackagePath>icon2LargeTile.scale-150.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2LargeTile.scale-125.jpg">
-      <PackagePath>icon2LargeTile.scale-125.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2.ico">
+      <PackagePath>icon2.ico</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2LargeTile.scale-100.jpg">
       <PackagePath>icon2LargeTile.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-400.jpg">
-      <PackagePath>icon2WideTile.scale-400.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2LargeTile.scale-125.jpg">
+      <PackagePath>icon2LargeTile.scale-125.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-200.jpg">
-      <PackagePath>icon2WideTile.scale-200.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2LargeTile.scale-150.jpg">
+      <PackagePath>icon2LargeTile.scale-150.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-150.jpg">
-      <PackagePath>icon2WideTile.scale-150.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2LargeTile.scale-200.jpg">
+      <PackagePath>icon2LargeTile.scale-200.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-125.jpg">
-      <PackagePath>icon2WideTile.scale-125.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-100.jpg">
-      <PackagePath>icon2WideTile.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-400.jpg">
-      <PackagePath>icon2MediumTile.scale-400.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-200.jpg">
-      <PackagePath>icon2MediumTile.scale-200.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-150.jpg">
-      <PackagePath>icon2MediumTile.scale-150.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-125.jpg">
-      <PackagePath>icon2MediumTile.scale-125.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-100.jpg">
-      <PackagePath>icon2MediumTile.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-400.jpg">
-      <PackagePath>icon2SmallTile.scale-400.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-200.jpg">
-      <PackagePath>icon2SmallTile.scale-200.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-150.jpg">
-      <PackagePath>icon2SmallTile.scale-150.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-125.jpg">
-      <PackagePath>icon2SmallTile.scale-125.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-100.jpg">
-      <PackagePath>icon2SmallTile.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-400.jpg">
-      <PackagePath>icon2StoreLogo.scale-400.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-200.jpg">
-      <PackagePath>icon2StoreLogo.scale-200.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-150.jpg">
-      <PackagePath>icon2StoreLogo.scale-150.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-125.jpg">
-      <PackagePath>icon2StoreLogo.scale-125.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-100.jpg">
-      <PackagePath>icon2StoreLogo.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-lightunplated_targetsize-256.jpg">
-      <PackagePath>icon2Logo.altform-lightunplated_targetsize-256.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-lightunplated_targetsize-48.jpg">
-      <PackagePath>icon2Logo.altform-lightunplated_targetsize-48.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-lightunplated_targetsize-32.jpg">
-      <PackagePath>icon2Logo.altform-lightunplated_targetsize-32.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-lightunplated_targetsize-24.jpg">
-      <PackagePath>icon2Logo.altform-lightunplated_targetsize-24.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2LargeTile.scale-400.jpg">
+      <PackagePath>icon2LargeTile.scale-400.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-lightunplated_targetsize-16.jpg">
       <PackagePath>icon2Logo.altform-lightunplated_targetsize-16.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-unplated_targetsize-256.jpg">
-      <PackagePath>icon2Logo.altform-unplated_targetsize-256.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-lightunplated_targetsize-24.jpg">
+      <PackagePath>icon2Logo.altform-lightunplated_targetsize-24.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-unplated_targetsize-48.jpg">
-      <PackagePath>icon2Logo.altform-unplated_targetsize-48.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-lightunplated_targetsize-256.jpg">
+      <PackagePath>icon2Logo.altform-lightunplated_targetsize-256.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-unplated_targetsize-32.jpg">
-      <PackagePath>icon2Logo.altform-unplated_targetsize-32.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-lightunplated_targetsize-32.jpg">
+      <PackagePath>icon2Logo.altform-lightunplated_targetsize-32.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-unplated_targetsize-24.jpg">
-      <PackagePath>icon2Logo.altform-unplated_targetsize-24.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-lightunplated_targetsize-48.jpg">
+      <PackagePath>icon2Logo.altform-lightunplated_targetsize-48.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-unplated_targetsize-16.jpg">
       <PackagePath>icon2Logo.altform-unplated_targetsize-16.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-256.jpg">
-      <PackagePath>icon2Logo.targetsize-256.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-unplated_targetsize-24.jpg">
+      <PackagePath>icon2Logo.altform-unplated_targetsize-24.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-48.jpg">
-      <PackagePath>icon2Logo.targetsize-48.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-unplated_targetsize-256.jpg">
+      <PackagePath>icon2Logo.altform-unplated_targetsize-256.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-32.jpg">
-      <PackagePath>icon2Logo.targetsize-32.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-unplated_targetsize-32.jpg">
+      <PackagePath>icon2Logo.altform-unplated_targetsize-32.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-24.jpg">
-      <PackagePath>icon2Logo.targetsize-24.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-16.jpg">
-      <PackagePath>icon2Logo.targetsize-16.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-400.jpg">
-      <PackagePath>icon2Logo.scale-400.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-200.jpg">
-      <PackagePath>icon2Logo.scale-200.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-150.jpg">
-      <PackagePath>icon2Logo.scale-150.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-125.jpg">
-      <PackagePath>icon2Logo.scale-125.jpg</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.altform-unplated_targetsize-48.jpg">
+      <PackagePath>icon2Logo.altform-unplated_targetsize-48.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-100.jpg">
       <PackagePath>icon2Logo.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2.ico">
-      <PackagePath>icon2.ico</PackagePath>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-125.jpg">
+      <PackagePath>icon2Logo.scale-125.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-150.jpg">
+      <PackagePath>icon2Logo.scale-150.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-200.jpg">
+      <PackagePath>icon2Logo.scale-200.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-400.jpg">
+      <PackagePath>icon2Logo.scale-400.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-16.jpg">
+      <PackagePath>icon2Logo.targetsize-16.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-24.jpg">
+      <PackagePath>icon2Logo.targetsize-24.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-256.jpg">
+      <PackagePath>icon2Logo.targetsize-256.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-32.jpg">
+      <PackagePath>icon2Logo.targetsize-32.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.targetsize-48.jpg">
+      <PackagePath>icon2Logo.targetsize-48.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-100.jpg">
+      <PackagePath>icon2MediumTile.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-125.jpg">
+      <PackagePath>icon2MediumTile.scale-125.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-150.jpg">
+      <PackagePath>icon2MediumTile.scale-150.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-200.jpg">
+      <PackagePath>icon2MediumTile.scale-200.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2MediumTile.scale-400.jpg">
+      <PackagePath>icon2MediumTile.scale-400.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-100.jpg">
+      <PackagePath>icon2SmallTile.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-125.jpg">
+      <PackagePath>icon2SmallTile.scale-125.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-150.jpg">
+      <PackagePath>icon2SmallTile.scale-150.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-200.jpg">
+      <PackagePath>icon2SmallTile.scale-200.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2SmallTile.scale-400.jpg">
+      <PackagePath>icon2SmallTile.scale-400.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-100.jpg">
+      <PackagePath>icon2StoreLogo.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-125.jpg">
+      <PackagePath>icon2StoreLogo.scale-125.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-150.jpg">
+      <PackagePath>icon2StoreLogo.scale-150.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-200.jpg">
+      <PackagePath>icon2StoreLogo.scale-200.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2StoreLogo.scale-400.jpg">
+      <PackagePath>icon2StoreLogo.scale-400.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-100.jpg">
+      <PackagePath>icon2WideTile.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-125.jpg">
+      <PackagePath>icon2WideTile.scale-125.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-150.jpg">
+      <PackagePath>icon2WideTile.scale-150.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-200.jpg">
+      <PackagePath>icon2WideTile.scale-200.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2WideTile.scale-400.jpg">
+      <PackagePath>icon2WideTile.scale-400.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\BA\bin\Release\net8.0-windows10.0.19041.0\win10-x64\BA.deps.json">
       <PackagePath>BA.deps.json</PackagePath>
@@ -355,6 +355,12 @@
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Localization.dll">
+      <PackagePath>Microsoft.Extensions.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Localization.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Localization.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
     </AppxPackagedFile>
@@ -441,6 +447,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\BA.dll">
       <PackagePath>BA.dll</PackagePath>

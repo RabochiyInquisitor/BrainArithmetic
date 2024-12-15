@@ -462,3 +462,4 @@ D:\BA\obj\Release\net8.0-android\resizetizer\r\mipmap-xxhdpi\icon2_background.pn
 D:\BA\obj\Release\net8.0-android\resizetizer\r\mipmap-xhdpi\icon2_background.png
 D:\BA\obj\Release\net8.0-android\resizetizer\r\mipmap-hdpi\icon2_background.png
 D:\BA\obj\Release\net8.0-android\resizetizer\r\mipmap-mdpi\icon2_background.png
+D:\BA\obj\Release\net8.0-android\BA.sourcelink.json

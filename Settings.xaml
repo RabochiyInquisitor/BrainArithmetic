@@ -4,7 +4,7 @@
              x:Class="BA.Settings"
              Title="Settings">
     <ScrollView>
-        <Grid>
+        <Grid x:Name="screen">
             <!--Выбор темы-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -48,10 +48,10 @@
             <Label Text="Выбор темы: " Grid.Row="0" Margin="0" Grid.Column="1" Grid.ColumnSpan="2"/>
             <Button Text="Применить" Grid.Row="0" Grid.Column="5" Clicked="Send"/>
 
-            <RadioButton Grid.Row="2" Grid.Column="0" Margin="0" GroupName="Options"/>
-            <RadioButton Grid.Row="2" Grid.Column="1" Margin="0" GroupName="Options"/>
-            <RadioButton Grid.Row="2" Grid.Column="2" Margin="0" GroupName="Options"/>
-            <RadioButton Grid.Row="2" Grid.Column="3" Margin="0" GroupName="Options"/>
+            <RadioButton Grid.Row="2" Grid.Column="0" Margin="0" CheckedChanged="ChangeTheme" x:Name="Gloomy_city" GroupName="Options" Value="Gloomy_city"/>
+            <RadioButton Grid.Row="2" Grid.Column="1" Margin="0" CheckedChanged="ChangeTheme" x:Name="Sakura_bloom" GroupName="Options" Value="Sakura_bloom"/>
+            <RadioButton Grid.Row="2" Grid.Column="2" Margin="0" CheckedChanged="ChangeTheme" x:Name="Swamp_forest" GroupName="Options" Value="Swamp_forest"/>
+            <RadioButton Grid.Row="2" Grid.Column="3" Margin="0" CheckedChanged="ChangeTheme" x:Name="Fire_in_night" GroupName="Options" Value="Fire_in_night"/>
 
 
 

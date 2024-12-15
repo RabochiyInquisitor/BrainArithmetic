@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon2ItunesArtwork.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon283.5x83.5@2x.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon276x76@2x.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon260x60@3x.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon260x60@2x.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon240x40@3x.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon240x40@2x.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon229x29@3x.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon229x29@2x.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon220x20@3x.jpg" />
-    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon220x20@2x.jpg" />
     <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\Contents.json" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon220x20@2x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon220x20@3x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon229x29@2x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon229x29@3x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon240x40@2x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon240x40@3x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon260x60@2x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon260x60@3x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon276x76@2x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon283.5x83.5@2x.jpg" />
+    <ImageAsset Include="D:\BA\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\icon2.appiconset\icon2ItunesArtwork.jpg" />
   </ItemGroup>
 </Project>

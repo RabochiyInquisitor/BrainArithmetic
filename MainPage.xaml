@@ -4,14 +4,14 @@
              x:Class="BA.MainPage"
 
     BackgroundColor="white">
-    <Grid BackgroundColor="#b0bfc2">
+    <Grid BackgroundColor="#b0bfc2" x:Name="Bottom">
         <Grid.RowDefinitions>
             <RowDefinition Height="220" />
             <RowDefinition Height="70" />
             <RowDefinition Height="500" />
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" BackgroundColor="#8da0a4">
+        <Grid Grid.Row="0" BackgroundColor="#8da0a4" x:Name="Top">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50" />
                 <RowDefinition Height="100" />
@@ -174,7 +174,7 @@
             TextColor="white"
              FontSize="30"/>
             <Button
-            Text=","
+            Text="."
             CornerRadius="70"
             WidthRequest="70"
             HeightRequest="70"

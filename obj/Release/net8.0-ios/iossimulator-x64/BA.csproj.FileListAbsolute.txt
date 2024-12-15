@@ -320,3 +320,6 @@ D:\BA\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\icon
 D:\BA\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\sp\icon2_A6F024CB956A1C8A7E7DAF1A7FC008D12997A4B3B835EE6ADCA08681A28291A1.jpg
 D:\BA\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\sp\icon2_A6F024CB956A1C8A7E7DAF1A7FC008D12997A4B3B835EE6ADCA08681A28291A1@2x.jpg
 D:\BA\obj\Release\net8.0-ios\iossimulator-x64\resizetizer\sp\icon2_A6F024CB956A1C8A7E7DAF1A7FC008D12997A4B3B835EE6ADCA08681A28291A1@3x.jpg
+D:\BA\obj\Release\net8.0-ios\iossimulator-x64\BA.sourcelink.json
+D:\BA\bin\Release\net8.0-ios\iossimulator-x64\Microsoft.Extensions.Localization.dll
+D:\BA\bin\Release\net8.0-ios\iossimulator-x64\Microsoft.Extensions.Localization.Abstractions.dll

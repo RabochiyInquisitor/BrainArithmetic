@@ -280,3 +280,6 @@ D:\BA\obj\Release\net8.0-maccatalyst\maccatalyst-arm64\refint\BA.dll
 D:\BA\obj\Release\net8.0-maccatalyst\maccatalyst-arm64\BA.pdb
 D:\BA\obj\Release\net8.0-maccatalyst\maccatalyst-arm64\BA.genruntimeconfig.cache
 D:\BA\obj\Release\net8.0-maccatalyst\maccatalyst-arm64\ref\BA.dll
+D:\BA\obj\Release\net8.0-maccatalyst\maccatalyst-arm64\BA.sourcelink.json
+D:\BA\bin\Release\net8.0-maccatalyst\maccatalyst-arm64\Microsoft.Extensions.Localization.dll
+D:\BA\bin\Release\net8.0-maccatalyst\maccatalyst-arm64\Microsoft.Extensions.Localization.Abstractions.dll

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BA.Themes">
+    <!--Sakura's_bloom-->
+    <Color x:Key="Sakura_bloom.StandartButtonBackgroundColor">#f1d8d9</Color>
+    <Color x:Key="Sakura_bloom.OperationButtonBackgroundColor">#ddb2b5</Color>
+    <Color x:Key="Sakura_bloom.DoneButtonBackgroundColor">#c99597</Color>
+    <Color x:Key="Sakura_bloom.TopScreenBackgroundColor">#f7e8e8</Color>
+    <Color x:Key="Sakura_bloom.BottomScreenBackgroundColor">#faf6f4</Color>
+    <Color x:Key="Sakura_bloom.TextColor">#000</Color>
+    <Color x:Key="Sakura_bloom.TextColorForLabel">#000</Color>
+    <Color x:Key="Sakura_bloom.TextColorForInput">#000</Color>
+
+
+    <Color x:Key="Sakura_bloom.Settings.Screen">#faf6f4</Color>
+    
+    
+    <!--Swamp_forest-->
+    <Color x:Key="Swamp_forest.StandartButtonBackgroundColor">#9ca089</Color>
+    <Color x:Key="Swamp_forest.OperationButtonBackgroundColor">#868b6b</Color>
+    <Color x:Key="Swamp_forest.DoneButtonBackgroundColor">#5b624c</Color>
+    <Color x:Key="Swamp_forest.TopScreenBackgroundColor">#c5beab</Color>
+    <Color x:Key="Swamp_forest.BottomScreenBackgroundColor">#e1dbcb</Color>
+    <Color x:Key="Swamp_forest.TextColor">#000</Color>
+    <Color x:Key="Swamp_forest.TextColorForLabel">#000</Color>
+    <Color x:Key="Swamp_forest.TextColorForInput">#000</Color>
+
+    <Color x:Key="Swamp_forest.Settings.Screen">#e1dbcb</Color>
+    <!--Gloomy_city-->
+    <Color x:Key="Gloomy_city.StandartButtonBackgroundColor">#5b7470</Color>
+    <Color x:Key="Gloomy_city.OperationButtonBackgroundColor">#3a4740</Color>
+    <Color x:Key="Gloomy_city.DoneButtonBackgroundColor">#202622</Color>
+    <Color x:Key="Gloomy_city.TopScreenBackgroundColor">#8da0a4</Color>
+    <Color x:Key="Gloomy_city.BottomScreenBackgroundColor">#b0bfc2</Color>
+    <Color x:Key="Gloomy_city.TextColor">#fff</Color>
+    <Color x:Key="Gloomy_city.TextColorForLabel">#000</Color>
+    <Color x:Key="Gloomy_city.TextColorForInput">#000</Color>
+
+    <Color x:Key="Gloomy_city.Settings.Screen">#b0bfc2</Color>
+    <!--Fire_in_night-->
+    <Color x:Key="Fire_in_night.StandartButtonBackgroundColor">#333333</Color>
+    <Color x:Key="Fire_in_night.OperationButtonBackgroundColor">#a5a5a5</Color>
+    <Color x:Key="Fire_in_night.DoneButtonBackgroundColor">#eea441</Color>
+    <Color x:Key="Fire_in_night.TopScreenBackgroundColor">#000</Color>
+    <Color x:Key="Fire_in_night.BottomScreenBackgroundColor">#404040</Color>
+    <Color x:Key="Fire_in_night.TextColor">#fff</Color>
+    <Color x:Key="Fire_in_night.TextColorForLabel">#fff</Color>
+    <Color x:Key="Fire_in_night.TextColorForInput">#fff</Color>
+
+    <Color x:Key="Fire_in_night.Settings.Screen">#404040</Color>
+
+</ResourceDictionary>

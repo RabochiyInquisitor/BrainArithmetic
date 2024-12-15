@@ -12,7 +12,7 @@
   <Properties>
     <DisplayName>BA</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
-    <Logo>appiconStoreLogo.png</Logo>
+    <Logo>icon2StoreLogo.jpg</Logo>
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
@@ -24,14 +24,14 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="BA.exe" EntryPoint="Windows.FullTrustApplication">
-      <uap:VisualElements DisplayName="BA" Description="BA" Square150x150Logo="appiconMediumTile.png" Square44x44Logo="appiconLogo.png" BackgroundColor="transparent">
-        <uap:DefaultTile Square71x71Logo="appiconSmallTile.png" Wide310x150Logo="appiconWideTile.png" Square310x310Logo="appiconLargeTile.png" ShortName="BA">
+      <uap:VisualElements DisplayName="BA" Description="BA" Square150x150Logo="icon2MediumTile.jpg" Square44x44Logo="icon2Logo.jpg" BackgroundColor="transparent">
+        <uap:DefaultTile Square71x71Logo="icon2SmallTile.jpg" Wide310x150Logo="icon2WideTile.jpg" Square310x310Logo="icon2LargeTile.jpg" ShortName="BA">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:SplashScreen Image="splashSplashScreen.png" />
+        <uap:SplashScreen Image="icon2SplashScreen.jpg" />
       </uap:VisualElements>
     </Application>
   </Applications>

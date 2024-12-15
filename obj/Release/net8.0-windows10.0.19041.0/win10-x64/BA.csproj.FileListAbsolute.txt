@@ -182,3 +182,7 @@ D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.s
 D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-125.jpg
 D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2Logo.scale-100.jpg
 D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2.ico
+D:\BA\obj\Release\net8.0-windows10.0.19041.0\win10-x64\BA.sourcelink.json
+D:\BA\bin\Release\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Localization.dll
+D:\BA\bin\Release\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Localization.Abstractions.dll
+D:\BA\bin\Release\net8.0-windows10.0.19041.0\win10-x64\System.Diagnostics.DiagnosticSource.dll
